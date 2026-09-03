@@ -9,13 +9,14 @@ $base_url = '/projeto_php/';
     <link rel="stylesheet" href="<?php echo $base_url; ?>css/style.css">
     <title>Projeto PHP - CRUD</title>
 </head>
-<body>
-    <header>
-        <h1>Sistema de Produtos</h1>
-            <nav>
-                <a href="<?php echo $base_url; ?>index.php">Início</a>
-                <a href="<?php echo $base_url; ?>produtos/listar.php">Produtos</a>
-                <a href="<?php echo $base_url; ?>login.php">Login</a>
-                <a href="<?php echo $base_url; ?>logout.php">Sair</a>
-            </nav>
+<body class="glass-body">
+    <header class="glass-header">
+        <h1 class="site-title">Sistema de Produtos</h1>
+
+        <nav class="glass-nav">
+            <a href="<?php echo $base_url; ?>index.php">Início</a>
+            <a href="<?php echo $base_url; ?>produtos/listar.php">Produtos</a>
+            <a href="<?php echo $base_url; ?>login.php">Login</a>
+            <a href="<?php echo $base_url; ?>logout.php">Sair</a>
+        </nav>
     </header>

@@ -23,22 +23,32 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <?php require __DIR__ . '/cabecalho.php'; ?>
 
-<main>
-    <h2>Login</h2>
+<main class="login-container">
 
-    <?php if (isset($mensagem)) { ?>
-        <p><?php echo $mensagem; ?></p>
-    <?php } ?>
+    <div class="login-card glass-card">
 
-    <form action="/projeto_php/login.php" method="POST">
-        <label>E-mail:</label>
-        <input type="text" name="email"><br>
+        <h2>Login</h2>
 
-        <label>Senha:</label>
-        <input type="password" name="senha"><br>
+        <?php if (isset($mensagem)) { ?>
+            <p class="error-message"><?php echo $mensagem; ?></p>
+        <?php } ?>
 
-        <button type="submit">Entrar</button>
-    </form>
+        <form class="glass-form" action="/projeto_php/login.php" method="POST">
+
+            <label>E-mail:</label>
+            <input class="glass-input" type="text" name="email"><br>
+
+            <label>Senha:</label>
+            <input class="glass-input" type="password" name="senha"><br>
+
+            <button class="glass-button login-button" type="submit">
+                Entrar
+            </button>
+
+        </form>
+
+    </div>
+
 </main>
 
 <?php require __DIR__ . '/rodape.php'; ?>
