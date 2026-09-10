@@ -361,6 +361,67 @@ a.delete-button:hover {
     align-items: center;
 }
 
+/* ============================================================
+   ESTILO EXCLUSIVO DA TELA DE ATUALIZAR / EDITAR (AQUAFRUIT)
+   ============================================================ */
+
+/* Container do Cartão de Edição */
+.card-editar-aquafruit {
+    background: linear-gradient(135deg, rgba(56, 239, 125, 0.25), rgba(255, 179, 71, 0.2)) !important;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1.5px solid rgba(255, 255, 255, 0.85) !important;
+    box-shadow: 0 12px 35px rgba(17, 153, 142, 0.25),
+                inset 0 1px 2px rgba(255, 255, 255, 0.95) !important;
+}
+
+/* Título */
+.card-editar-aquafruit h2 {
+    color: #014227 !important;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+/* Campos de entrada dentro da edição */
+.card-editar-aquafruit .glass-input {
+    background: rgba(255, 255, 255, 0.5) !important;
+    border: 1px solid rgba(255, 255, 255, 0.9) !important;
+    color: #002b17 !important;
+}
+
+.card-editar-aquafruit .glass-input:focus {
+    background: rgba(255, 255, 255, 0.85) !important;
+    border-color: #38ef7d !important;
+    box-shadow: 0 0 15px rgba(56, 239, 125, 0.5), 0 0 5px rgba(255, 179, 71, 0.4) !important;
+}
+
+/* Botão Salvar (Verde Tropical com toque Laranja Citrus) */
+.btn-salvar-aquafruit {
+    width: 100% !important;
+    margin-top: 15px !important;
+    background: linear-gradient(
+        180deg, 
+        rgba(255, 255, 255, 0.9) 0%, 
+        rgba(255, 200, 100, 0.5) 40%, 
+        rgba(255, 140, 0, 0.55) 50%, 
+        rgba(56, 239, 125, 0.65) 100%
+    ) !important;
+    color: #013821 !important;
+    border: 1px solid rgba(255, 255, 255, 0.9) !important;
+    box-shadow: 0 4px 15px rgba(56, 239, 125, 0.3), inset 0 2px 3px #fff !important;
+}
+
+.btn-salvar-aquafruit:hover {
+    background: linear-gradient(
+        180deg, 
+        rgba(255, 255, 255, 1) 0%, 
+        rgba(255, 215, 120, 0.7) 40%, 
+        rgba(255, 150, 0, 0.75) 50%, 
+        rgba(56, 239, 125, 0.85) 100%
+    ) !important;
+    box-shadow: 0 6px 20px rgba(56, 239, 125, 0.5), inset 0 2px 5px #fff !important;
+    color: #002213 !important;
+}
+
 /* ------------------------------------------------------------
    MENSAGEM DE ERRO & RODAPÉ
    ------------------------------------------------------------ */

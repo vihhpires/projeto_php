@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 -- Banco de dados: `sistema_produtos`
 --
 
+CREATE DATABASE `sistema_produtos`;
+USE `sistema_produtos`;
 -- --------------------------------------------------------
 
 --
